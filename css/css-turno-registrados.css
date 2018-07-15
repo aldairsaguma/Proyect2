@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#tabla{
+	width: 100%;
+	/*border: solid black 1px;*/
+	height: 250px;
+	/*margin: 0 auto;*/
+	text-align: inherit;
+	/*border: solid black 1px;*/
+}
+
+table thead{
+	font-size: 22px;
+	background-color: #212529;
+	color: white;
+}
+
+input[type='checkbox']{
+	width: 15px;
+	height: 15px;
+	position: relative;
+    display: block;
+    padding-left: 1.25rem;
+
+    /*Centrar checkbox el cell*/
+     float: left;
+    margin: 0 auto;
+    width: 100%;
+
+}
